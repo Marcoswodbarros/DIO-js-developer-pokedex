@@ -1,9 +1,15 @@
+h1 {
+    margin: .5rem;
+}
+
 .pokemons {
+    background-color: #98d5d7;
+    border-radius: 1rem;
     display: grid;
     grid-template-columns: 1fr;
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: .7rem;
 }
 
 .normal {
@@ -138,7 +144,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 1rem;
+    padding: 1rem 1rem 0 1rem;
     width: 100%;
 }
 
